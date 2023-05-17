@@ -32,6 +32,5 @@ def send_ans(message):
     bot.send_message(message.chat.id, " Every storm runs out of rain, just like every dark night turns into day. It's important to hold on and keep fighting")
     bot.send_message(message.chat.id,"You are not alone. In your darkest moments, there are people who care and want to support you. Reach out, and let them help you carry the weight")
     bot.reply_to(message,"Sometimes, the darkest times can bring us to the brightest places. Keep going, because you are stronger than you think")
-    # bot.send_sticker(message.chat.id, sticker= "CAACAgIAAxkBAAEBzd5kUqYfyKeTesWjN3x7nga_PoEE2AACWAADUomRI32OzA4HOEuGLwQ")
-    bot.send_message(-1001945880068,"or kya haal h bhai")
+    
 bot.polling()
